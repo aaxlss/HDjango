@@ -1,4 +1,6 @@
-{% include 'main.html' %}
+{% if father != ''%}
+    {% include father %}
+{% endif%}
 
 {% block title_main %}
     Gallery
